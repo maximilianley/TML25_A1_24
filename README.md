@@ -82,4 +82,4 @@ Also note that the private dataset in this approach is only used at the very end
 
 One observation I should make is that in general I let my models train for a very high number of epochs, for example 150 or 200. This is usually not recommended in ML because it means strong overfitting (even though in my case the loss just keeps going down all the same, even if slowly). But in this case overfitting is good, as it allows for stronger recognition of specific data points.
 
-
+The submission file containing the meta-classifier's confidence values (value / non-member) "test.csv" is also inside the shadow_training directory. Please ignore the "test.csv" in the main directory.
